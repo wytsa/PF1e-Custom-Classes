@@ -5,7 +5,7 @@
   "author": "Solaris Levek",
   "version": "1.0.1",
   "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion":"0.81.3",
+  "compatibleCoreVersion":"9.240",
   "scripts": [],
   "dependencies": [
 	{
