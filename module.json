@@ -6,9 +6,7 @@
   "version": "1.0.1",
   "minimumCoreVersion": "0.5.0",
   "compatibleCoreVersion":"0.81.3",
-  "scripts": [
-    "scripts/roller.js"
-  ],
+  "scripts": [],
   "dependencies": [
 	{
 	  "name": "pf1",
