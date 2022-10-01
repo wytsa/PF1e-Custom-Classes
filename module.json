@@ -1,0 +1,195 @@
+{
+  "name": "PF1e-Custom-Classes",
+  "title": "PF1e Custom Classes",
+  "description": "Pathfinder 1e Custom Classes",
+  "author": "Solaris Levek",
+  "version": "1.0.1",
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion":"0.81.3",
+  "scripts": [
+    "scripts/roller.js"
+  ],
+  "dependencies": [
+	{
+	  "name": "pf1",
+	  "type": "system"
+	}
+  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "buffs",
+      "label": "Custom-Classes Buffs",
+      "path": "packs/Custom-Classes-buffs.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "classFeatures",
+      "label": "Custom-Classes Class Features",
+      "path": "packs/Custom-Classes-class-feature.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "classes",
+      "label": "Custom-Classes Classes",
+      "path": "packs/Custom-Classes-class.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "equipment",
+      "label": "Custom-Classes Equipment",
+      "path": "packs/Custom-Classes-equipment.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "feats",
+      "label": "Custom-Classes Feats",
+      "path": "packs/Custom-Classes-feat.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "races",
+      "label": "Custom-Classes Races",
+      "path": "packs/Custom-Classes-races.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "specialAbilities",
+      "label": "Custom-Classes Special Abilities",
+      "path": "packs/Custom-Classes-special-abilities.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "specialMaterials",
+      "label": "Custom-Classes Special Materials",
+      "path": "packs/Custom-Classes-special-materials.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "spells",
+      "label": "Custom-Classes Spells",
+      "path": "packs/Custom-Classes-spells.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "traits",
+      "label": "Custom-Classes Traits",
+      "path": "packs/Custom-Classes-traits.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "traitsCharacter",
+      "label": "Custom-Classes Character Traits",
+      "path": "packs/Custom-Classes-character-traits.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "traitsRacial",
+      "label": "Custom-Classes Racial Traits",
+      "path": "packs/Custom-Classes-Racial-traits.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "traitsRacialAlternative",
+      "label": "Custom-Classes Racial Traits (Alternative)",
+      "path": "packs/Custom-Classes-Racial-traits-alternative.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "templates",
+      "label": "Custom-Classes Templates",
+      "path": "packs/Custom-Classes-template.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "ammunition",
+      "label": "Custom-Classes Ammunition",
+      "path": "packs/Custom-Classes-ammunition.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "weapons",
+      "label": "Custom-Classes Weapons",
+      "path": "packs/Custom-Classes-weapons.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "armor",
+      "label": "Custom-Classes Armors",
+      "path": "packs/Custom-Classes-armors.db",
+      "entity": "Item",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    },
+    {
+      "name": "scenes",
+      "label": "Custom-Classes Scenes",
+      "path": "packs/Custom-Classes-scenes.db",
+      "entity": "Scene",
+      "module": "PF1e-Custom-Classes",
+      "private": false
+    }
+  ],
+
+  "socket": false,
+  "manifest": "https://github.com/wytsa/PF1e-Custom-Classes/raw/main/module.json",
+  "download": "https://github.com/wytsa/PF1e-Custom-Classes/archive/v0.1.0.zip",
+  "protected": false,
+  "coreTranslation": false
+}
+
+"authors": [
+  {
+	  "Solaris Levek"
+  }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": 9,
+    "verified": "9"
+    "maximum": "10"
+  }
+    "relationships": {
+  "systems": [{
+    "id": "pf1",
+    "type": "system",
+    "manifest": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1/-/releases/permalink/latest/downloads/system.json",
+    "compatibility": {
+      "verified": "0.81.3"
+    }
+  }],
+  },
