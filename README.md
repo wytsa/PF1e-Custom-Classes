@@ -1,2 +1,2 @@
 # PF1e-Psionics
- trying my hand at making a psionic module for PF1e
+ trying my hand at importing OGL classes into a module for PF1e
